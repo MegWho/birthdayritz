@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align:center;
+    background-image: url('bd05.mp4');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    padding-top: 15px;
+    color: rgb(240, 168, 36);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(251, 220, 174);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+p {
+    margin-top: 20px;
+}
+Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  a {
+    padding: 10px 20px;
+    background-color: #fce1c2;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+}
+p {
+    margin-top: 20px;
+}
+#photoButton{
+    margin: 50px;
+}
+
+@media (max-width: 768px) {
+    /* Styles for smaller screens (e.g., smartphones) */
+    body {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 769px) {
+    /* Styles for larger screens (e.g., tablets and desktops) */
+    body {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
